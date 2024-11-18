@@ -1,0 +1,5 @@
+
+<%@page import="com.nt.service.*"%>
+<% 
+	studentService service = new StudentService();
+	out.println("studnent Rank::"+service.getRank(101));

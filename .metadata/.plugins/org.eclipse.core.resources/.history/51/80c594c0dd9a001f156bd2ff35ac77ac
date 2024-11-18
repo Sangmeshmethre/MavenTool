@@ -1,0 +1,8 @@
+package com.nt.jdbc;
+
+public class SelectTest {
+	
+	private static final String SELECT_MAX_SAL="SELET EMPNO,ENAME,JOB, SAL, FROM EMP WHERE SAL=(SELET max(SAL) FROM EMP)";
+	
+
+}

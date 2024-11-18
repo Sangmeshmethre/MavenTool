@@ -1,0 +1,12 @@
+package com.nt.prepartion;
+
+import com.nt.service.ArthmeticOpartions;
+
+public class StudentOperation {
+	
+	public static void main(String[] args) {
+		
+		ArthmeticOpartions ar = new ArthmeticOpartions();
+	}
+
+}

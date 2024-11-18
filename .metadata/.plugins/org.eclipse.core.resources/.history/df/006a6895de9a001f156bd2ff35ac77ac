@@ -1,0 +1,30 @@
+package com.nt.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public class SelectTest {
+	
+	private static final String SELECT_MAX_SAL="SELET EMPNO,ENAME,JOB, SAL, FROM EMP WHERE SAL=(SELET max(SAL) FROM EMP)";
+	
+	public static void main(String[] args) {
+		
+		Connection con = null;
+		Statement st = null;
+		ResultSet rs = null;
+		
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			
+			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:ORCL","system","tiger");
+			
+			if(con != null)
+				st = con.createStatement();
+			if(st != null)
+				rs = st.executeQuery(SELECT_MAX_SAL);
+		}
+	}
+
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Tools\Maven_Tool\StudentManagement"/>
+			<item value="E:\Tools\Maven_Tool\WishAppProj"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.OnlineStudentWeb.Module3"/>
+			<item value="org.StudentPrepartion.Module2"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="OnlineStudentWeb-Module3"/>
+			<item value="StudentPrepartion-Module2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="OnlineStudentWeb-Module3"/>
+			<item value="Maven-MonolithicProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="OnlineStudentWeb-Module3"/>
+			<item value="StudentPrepartion-Module2"/>
+			<item value="MathOperation-Module1"/>
+			<item value="StudnetOperationModule2"/>
+			<item value="StudentOperation-Module2"/>
+			<item value="StudentOperations-Module2"/>
+			<item value="StudentPreparation-Module2"/>
+			<item value="MathOperationsModule1"/>
+			<item value="MathOperationModule1"/>
+			<item value="StudentWebMod"/>
+			<item value="StudentServiceMod"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="720"/>
+		<item key="y" value="101"/>
+	</section>
+</section>
